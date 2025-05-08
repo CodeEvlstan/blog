@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "PleasePlus前端文档"
+  name: "Evlstan前端文档"
   text: "A VitePress Site"
   tagline: My great project tagline
   actions:
     - theme: brand
       text: 现在开始
-      link: https://admin.pleaseplus.com.cn/order
+      link: https://www.baidu.com
     - theme: alt
       text: 团队成员
       link: /api-examples
