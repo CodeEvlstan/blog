@@ -29,5 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: /.vitepress/dist # 构建后的目录
+          publish_dir: .vitepress/dist # 构建后的目录
           keep_files: false # 清理旧文件
