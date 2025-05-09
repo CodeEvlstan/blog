@@ -39,7 +39,6 @@ features:
       width: 48px
       height: 48px
     details: 敬请期待。
-    link: https://juejin.cn/post/7330227149177028617
     linkText: 查看详情
   - title: UniApp/ReactNative/Flutter
     icon:
@@ -47,7 +46,6 @@ features:
       width: 48px
       height: 48px
     details: 打通移动端任督二脉，成为大前端领域王者。
-    link: https://juejin.cn/post/7349936384512213027
     linkText: 查看详情
   - title: cocos
     icon:
@@ -55,7 +53,6 @@ features:
       width: 48px
       height: 48px
     details: 教练，我想做游戏！
-    link: https://juejin.cn/post/7327893130572824611
     linkText: 查看详情
 ---
 
