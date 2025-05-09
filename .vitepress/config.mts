@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/blog/',
+  base: './',
   title: "Evlstan's Blog",
   description: "Evlstan的前端博客",
   head: [
