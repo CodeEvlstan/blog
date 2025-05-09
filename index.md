@@ -53,6 +53,7 @@ features:
       width: 48px
       height: 48px
     details: 教练，我想做游戏！
+   
     linkText: 查看详情
 ---
 
