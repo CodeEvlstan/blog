@@ -21,32 +21,36 @@ features:
       width: 48px
       height: 48px
     details: 全网检索高频前端面试题，并通过实际工作场景进行解答。
+    linkText: 查看详情
+    link: /interview/javascript/variable-type
   - title: NodeJs进阶笔记
     icon:
       src: /node.png
       width: 48px
       height: 48px
     details: 快速掌握NodeJs内容，成为全栈第一步。
+    linkText: 敬请期待
   - title: Vue开发速记
     icon:
       src: /vue.png
       width: 48px
       height: 48px
     details: 敬请期待
+    linkText: 敬请期待
   - title: React专项强化
     icon:
       src: /react.png
       width: 48px
       height: 48px
     details: 敬请期待。
-    linkText: 查看详情
+    linkText: 敬请期待
   - title: UniApp/ReactNative/Flutter
     icon:
       src: /react.png
       width: 48px
       height: 48px
     details: 打通移动端任督二脉，成为大前端领域王者。
-    linkText: 查看详情
+    linkText: 敬请期待
   - title: cocos
     icon:
       src: /cocos.png
@@ -54,6 +58,6 @@ features:
       height: 48px
     details: 教练，我想做游戏！
    
-    linkText: 查看详情
+    linkText: 敬请期待
 ---
 

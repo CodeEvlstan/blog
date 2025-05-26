@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import { javascriptSidebarItem, vueSidebarItem } from './directory.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog/',
@@ -16,23 +16,16 @@ export default defineConfig({
       { text: '组件库', link: '/components' },
       { text: 'Hooks', link: '/components' },
       { text: 'Utils', link: '/components' },
-      { text: '博客', items: [
-        {text: 'Vue', link: '/article'}
+      { text: '专栏', items: [
+        {text: '人工智能', link: '/columns/ai'}
       ] },
     ],
     outline: 3,
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
-
+    sidebar: {
+      '/interview/': [javascriptSidebarItem,vueSidebarItem],
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/CodeEvlstan/blog' }
     ]
   }
 })
