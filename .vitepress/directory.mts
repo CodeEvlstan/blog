@@ -19,6 +19,7 @@ export const vueSidebarItem = {
   text: "Vue",
     items: [
     { text: "选项", link: "/interview/vue/options" },
+    { text: "Key值", link: "/interview/vue/key" },
     ]
 }
 

@@ -2,6 +2,13 @@ import { defineConfig } from 'vitepress'
 import { javascriptSidebarItem, vueSidebarItem } from './directory.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    vite: {
+    resolve: {
+      alias: {
+        'vue': 'vue/dist/vue.esm-bundler.js'
+      }
+    },
+  },
   base: '/blog/',
   title: "Evlstan's Blog",
   description: "Evlstan的前端博客",
@@ -26,6 +33,10 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/CodeEvlstan/blog' }
-    ]
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2025-present Evlstan'
+    }
   }
 })

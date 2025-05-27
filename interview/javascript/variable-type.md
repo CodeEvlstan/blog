@@ -1,12 +1,12 @@
-## 数据类型分类
+### 数据类型分类
 javascript数据类型分为
 
-1. undefined ：含义是未定义，变量声明了但还有定义的时候返回。 undefined是一个非保留字
-2. Null: 表示定义了一个空对象（空指针）
-3. Boolean
-4. Number
-5. String
-6. Object
+  - **undefined：** 含义是未定义，变量声明了但还有定义的时候返回。 undefined是一个非保留字
+  - **Null：** 表示定义了一个空对象（空指针）
+  - **Boolean：**
+  - **Number：**
+  - **String：**
+  - **Object：**
     1. 判断一个对象为空的手段
 
 ```javascript
@@ -14,10 +14,10 @@ JSON.stringify(obj) == {}
 Object.keys(obj).length < 0
 ```
 
-7. Symbol : 创建后独一无二且不可变的数据类型，主要为了解决可能出现的全局变量冲突问题
-8. Bigint： 可以表示任意精度格式的证书，使用Bigint可以安全地储存和操作大整数，即使这个数已经超过了Number能够表示的安全范围（Number.Min_SAFE_INTEGER 负(2^53-1)  到 Number.MAX_SAFE_INTEGER (2^53-1)）。
+  - **Symbol：** : 创建后独一无二且不可变的数据类型，主要为了解决可能出现的全局变量冲突问题
+  - **Bigint：** 可以表示任意精度格式的证书，使用Bigint可以安全地储存和操作大整数，即使这个数已经超过了Number能够表示的安全范围（Number.Min_SAFE_INTEGER 负(2^53-1)  到 Number.MAX_SAFE_INTEGER (2^53-1)）。
 
-## 数据类型检测
+### 数据类型检测
 ### typeof操作符判断变量类型
 ```javascript
 typeof variable  // 返回一个表示变量类型的字符串
@@ -73,7 +73,7 @@ if (typeof str !== 'undefined') {
 
 
 
-## 数据类型转换
+###  数据类型转换
 JavaScript本身是一门动态类型语言，在进行类型转换时，可以通过显示类型转换来改变变量类型，也可以通过隐式类型转换来改变变量的类型，以下面这段代码为例
 
 ```javascript
