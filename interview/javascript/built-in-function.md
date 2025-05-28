@@ -1,3 +1,6 @@
+
+<Badge type="warning">内容编写中</Badge>
+
 在JavaScript中，内置函数主要包括：
 
 1. String()

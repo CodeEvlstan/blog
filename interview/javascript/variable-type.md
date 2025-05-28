@@ -1,22 +1,23 @@
+<Badge type="warning">内容编写中</Badge>
+
 ### 数据类型分类
 javascript数据类型分为
 
-  - **undefined：** 含义是未定义，变量声明了但还有定义的时候返回。 undefined是一个非保留字
-  - **Null：** 表示定义了一个空对象（空指针）
-  - **Boolean：**
-  - **Number：**
-  - **String：**
+  - **undefined：** 表示变量未初始化。一个变量声明后但未赋值时，它的默认值是 undefined.
+  - **Null：** 表示一个空的值或一个不存在的对象。null 是一个特殊的关键字，它代表“无值”
+  - **Boolean：** 只有两个值:true 和 false，用于逻辑判断。
+  - **Number：** 表示双精度 64 位二进制格式的浮点数，可以表示整数和浮点数。特殊值包括 NaN(NotaNumber)和 Infinity。
+  - **String：** 表示字符序列，可以用单引号、双引号或反引号括起来的文本。
   - **Object：**
-    1. 判断一个对象为空的手段
+  - **Symbol：** : 创建后独一无二且不可变的数据类型，主要为了解决可能出现的全局变量冲突问题
+  - **Bigint：** 可以表示任意精度格式的证书，使用Bigint可以安全地储存和操作大整数，即使这个数已经超过了Number能够表示的安全范围（Number.Min_SAFE_INTEGER 负(2^53-1)  到 Number.MAX_SAFE_INTEGER (2^53-1)）。
 
+
+1. 判断一个对象为空的手段
 ```javascript
 JSON.stringify(obj) == {}
 Object.keys(obj).length < 0
 ```
-
-  - **Symbol：** : 创建后独一无二且不可变的数据类型，主要为了解决可能出现的全局变量冲突问题
-  - **Bigint：** 可以表示任意精度格式的证书，使用Bigint可以安全地储存和操作大整数，即使这个数已经超过了Number能够表示的安全范围（Number.Min_SAFE_INTEGER 负(2^53-1)  到 Number.MAX_SAFE_INTEGER (2^53-1)）。
-
 ### 数据类型检测
 ### typeof操作符判断变量类型
 ```javascript

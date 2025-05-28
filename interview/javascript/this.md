@@ -1,3 +1,5 @@
+<Badge type="warning">内容编写中</Badge>
+
 ## 含义
 1. this被自动定义在所有函数的作用域中
 2. this可以隐式传递上下文

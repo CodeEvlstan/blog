@@ -1,3 +1,6 @@
+<Badge type="warning">内容编写中</Badge>
+
+
 ### MVC和MVVM的定义
 #### **mvc** (model view Model) 
 **1. ​MVC的三层结构**

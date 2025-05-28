@@ -1,4 +1,6 @@
-## Cookie
+<Badge type="warning">内容编写中</Badge>
+
+# Cookie
 Cookie是一小段文字信息，由服务器端发送到浏览器。并存储在用户本地。
 
 ## localStorage
