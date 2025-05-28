@@ -20,6 +20,8 @@ export const vueSidebarItem = {
     items: [
     { text: "选项", link: "/interview/vue/options" },
     { text: "Key值", link: "/interview/vue/key" },
+    { text: "MVVM", link: "/interview/vue/mvvm" },
+    { text: "数据劫持", link: "/interview/vue/reactive" },
     ]
 }
 
