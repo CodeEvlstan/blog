@@ -1,4 +1,7 @@
 <Badge type="warning">内容编写中</Badge>
+::: tip
+内容编写中...
+:::
 
 ### 数据类型分类
 javascript数据类型分为
@@ -24,7 +27,7 @@ Object.keys(obj).length < 0
 typeof variable  // 返回一个表示变量类型的字符串
 ```
 
-```javascript
+```javascript:line-numbers {1}
 // 声明不同类型的变量
 const undefinedVar = undefined;
 const booleanVar = true;

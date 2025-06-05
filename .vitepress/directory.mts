@@ -25,4 +25,10 @@ export const vueSidebarItem = {
     ]
 }
 
+export const toolchainSidebarItem = {
+  text: "工具链",
+    items: [
+    { text: "Vite", link: "/interview/toolchain/vite" },
+    ]
+}
 // Interview Buzzwords
