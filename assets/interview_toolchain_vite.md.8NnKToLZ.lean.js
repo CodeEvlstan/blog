@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CLNW5JS9.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"interview/toolchain/vite.md","filePath":"interview/toolchain/vite.md"}'),i={name:"interview/toolchain/vite.md"};function o(n,r,c,s,p,_){return a(),t("div")}const m=e(i,[["render",o]]);export{l as __pageData,m as default};
