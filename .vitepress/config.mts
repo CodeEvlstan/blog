@@ -10,7 +10,7 @@ export default defineConfig({
   //   },
   // },
   base: '/blog/',
-  title: "Evlstan's Blog",
+  title: "Evlstan's Column",
   description: "Evlstan的前端博客",
   head: [
     ['link', { rel: 'icon', href: '/blog/icon.ico'}]
