@@ -10,8 +10,8 @@ export default defineConfig({
   //   },
   // },
   base: '/blog/',
-  title: "Evlstan's Column",
-  description: "Evlstan的前端博客",
+  title: "Evlstan's Columns",
+  description: "Evlstan的前端专栏",
   head: [
     ['link', { rel: 'icon', href: '/blog/icon.ico'}]
   ],
@@ -36,7 +36,10 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-present Evlstan'
+      copyright: `Copyright © 2025-present Evlstan<br/>
+      <a href='https://beian.miit.gov.cn/#/Integrated/index' target='_blank'>吉ICP备2025028976号-1</a> 
+
+      `
     }
   }
 })
