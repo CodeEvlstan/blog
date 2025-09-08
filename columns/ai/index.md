@@ -1,3 +1,4 @@
-<!-- ---
-layout: home
---- -->
+<!-- content/column/index.md -->
+---
+layout: ColumnPage
+---
