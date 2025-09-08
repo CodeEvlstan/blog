@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.CLNW5JS9.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"columns/ai/index.md","filePath":"columns/ai/index.md"}'),n={name:"columns/ai/index.md"};function o(s,c,r,i,d,m){return a(),t("div")}const l=e(n,[["render",o]]);export{_ as __pageData,l as default};
